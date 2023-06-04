@@ -47,7 +47,7 @@ const MessageForm = (props) => {
       />
 
       <button type="submit" className="send-button">
-        <SendOutlined className="send-icon" />
+        <SendOutlined className="send-icon" style={{transform:'rotate(360deg)'}} />
       </button>
     </form>
   );
